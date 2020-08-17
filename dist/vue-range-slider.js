@@ -1,6 +1,6 @@
 /*!
  * vue-range-slider v1.0.3
- * (c) 2016-2019 xwpongithub
+ * (c) 2016-2020 xwpongithub
  * Released under the MIT License.
  */
 
@@ -181,7 +181,7 @@
         type: [String, Boolean],
         default: 'always',
         validator: function validator(val) {
-          return ['hover', 'always'].indexOf(val) > -1;
+          return ['hover', 'always', false].indexOf(val) > -1;
         }
       },
       // 组件方向
